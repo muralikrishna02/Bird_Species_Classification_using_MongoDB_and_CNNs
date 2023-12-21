@@ -1,5 +1,4 @@
-# bird_species_classsification
-# Bird Image Classification Project
+# Bird Image Classification using MongoDB and CNNs
 
 ## Overview
 
