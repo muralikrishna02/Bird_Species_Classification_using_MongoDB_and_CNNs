@@ -19,7 +19,7 @@ Ensure you have the following dependencies installed:
 
 
 ## Data Collection and Storage
-Bird images are stored in MongoDB using GridFS. The script upload_data uploads images from a local directory to the MongoDB database.
+Bird images are stored in MongoDB using GridFS. This uploads images from a local directory to the MongoDB database.
 
 ## Data Preprocessing
 Images are loaded from MongoDB, resized, and flattened. Categorical labels are mapped to numerical values, and the dataset is split into training and testing sets.
@@ -35,7 +35,3 @@ The model's performance is evaluated using a test dataset. Evaluation metrics su
 
 ## Predictions
 The trained model is used for making predictions on new bird images. 
-
-Usage
-To use the project, follow the steps in the Setup section. You can train the model, evaluate its performance, and make predictions using the provided scripts.
-
